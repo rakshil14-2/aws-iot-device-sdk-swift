@@ -119,3 +119,33 @@ Check out our resources for additional guidance too before opening an issue:
 ## License
 
 This library is licensed under the [Apache 2.0 License](./Documentation/LICENSE).
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| iOS 17.2, iOS 18.5 | arm64 |
+| macOS-14 | arm64, x86_64 |
+| macos-15 | arm64, x86_64 |
+| tvOS 17.2, tvOS18.5 | arm64 |
+| ubuntu-24.04 | x86_64 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+| iOS26 | arm64 |
+| macOS12, macOS13 | x86_64, arm 64 |
+| tvOS-26 | arm64 |
+
+## Supported Tools
+
+| Name | Version | Platforms |
+|------|---------|-----------|
+| Swift package Manager | 5.10+ | All |
+| Xcode | 15.2, 16.4 | macOS, iOS, tvOS |
+
+<!-- PLATFORM_SUPPORT_END -->
